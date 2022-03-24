@@ -8,7 +8,7 @@ contract typeBytes {
         assembly {
             a := mload(0x40)
             b := add(a, 33)
-            codecopy(a, 4, 32)
+            // codecopy(a, 4, 32)
         }
     }
 }
