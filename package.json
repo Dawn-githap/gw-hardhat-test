@@ -6,7 +6,7 @@
     "compile": "hardhat compile",
     "test": "hardhat test --network gw_devnet_v1",
     "test:gw_testnet_v1": "hardhat test --network rinkeby",
-    "test:bsc_test":"hardhat test --network bsc_test"
+    "test:bsc_test": "hardhat test --network bsc_test"
   },
   "keywords": [
     "Solidity",
